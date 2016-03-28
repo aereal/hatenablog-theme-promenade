@@ -10,8 +10,8 @@
     "node-sass": "^3.4.2"
   },
   "scripts": {
-    "build": "scripts/compile-scss src/main.scss",
-    "watch": "scripts/compile-scss -w -r src/main.scss",
+    "build": "scripts/compile-scss src/theme.scss",
+    "watch": "scripts/compile-scss -w -r src/theme.scss",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
