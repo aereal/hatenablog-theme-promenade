@@ -7,11 +7,13 @@
     "node-sass": "^3.4.2"
   },
   "devDependencies": {
+    "cocproxy": "^1.0.2",
     "node-sass": "^3.4.2"
   },
   "scripts": {
     "build": "scripts/compile-scss src/theme.scss",
     "watch": "scripts/compile-scss -w -r src/theme.scss",
+    "start": "cocproxy -d dist/ -p 8087",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
