@@ -1,0 +1,18 @@
+{
+  "name": "hatenablog-theme-promenade",
+  "version": "0.0.1",
+  "description": "写真ブログのためのテーマ。",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^3.4.2"
+  },
+  "devDependencies": {
+    "node-sass": "^3.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "aereal",
+  "license": "MIT"
+}
