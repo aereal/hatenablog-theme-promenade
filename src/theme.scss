@@ -1,0 +1,49 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css");
+
+.page-index,
+.page-archive {
+  #main-inner {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.entry-title-empty {
+  display: none;
+}
+
+.entry {
+  position: relative;
+  width: 46%;
+  padding: 1%;
+
+  .entry-header {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+  }
+
+  .entry-content > p {
+    margin: 0;
+    line-height: 0;
+  }
+
+  .entry-footer {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+
+    & > * {
+      display: inline-block;
+      margin: 0;
+    }
+  }
+}
+
+.author {
+  display: none;
+}
+
+.pager {
+  display: none; // TODO
+}
